@@ -1,0 +1,52 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.0.31903.59
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Okala.Api", "Okala.Api\Okala.Api.csproj", "{C7357FAC-03A9-4806-A91B-5926DD39D9E8}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Okala.Application", "Okala.Application\Okala.Application.csproj", "{4F3BEE60-F002-40BA-A510-EA574AD5573A}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Okala.Contracts", "Okala.Contracts\Okala.Contracts.csproj", "{ABAC3C44-07EA-4287-8C21-B0F1C02BC021}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Okala.Domain", "Okala.Domain\Okala.Domain.csproj", "{0183CEC9-E45B-4F91-B900-E45E5868BDB9}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Okala.Infrastructure", "Okala.Infrastructure\Okala.Infrastructure.csproj", "{AEB3EBED-E97D-4D77-BA31-A1B7FAFE6AC6}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Okala.Tests", "Okala.Tests\Okala.Tests.csproj", "{E7E9B68A-4ECC-4751-9828-30346FD4ADAF}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{C7357FAC-03A9-4806-A91B-5926DD39D9E8}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{C7357FAC-03A9-4806-A91B-5926DD39D9E8}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{C7357FAC-03A9-4806-A91B-5926DD39D9E8}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{C7357FAC-03A9-4806-A91B-5926DD39D9E8}.Release|Any CPU.Build.0 = Release|Any CPU
+		{4F3BEE60-F002-40BA-A510-EA574AD5573A}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{4F3BEE60-F002-40BA-A510-EA574AD5573A}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{4F3BEE60-F002-40BA-A510-EA574AD5573A}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{4F3BEE60-F002-40BA-A510-EA574AD5573A}.Release|Any CPU.Build.0 = Release|Any CPU
+		{ABAC3C44-07EA-4287-8C21-B0F1C02BC021}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{ABAC3C44-07EA-4287-8C21-B0F1C02BC021}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{ABAC3C44-07EA-4287-8C21-B0F1C02BC021}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{ABAC3C44-07EA-4287-8C21-B0F1C02BC021}.Release|Any CPU.Build.0 = Release|Any CPU
+		{0183CEC9-E45B-4F91-B900-E45E5868BDB9}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{0183CEC9-E45B-4F91-B900-E45E5868BDB9}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{0183CEC9-E45B-4F91-B900-E45E5868BDB9}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{0183CEC9-E45B-4F91-B900-E45E5868BDB9}.Release|Any CPU.Build.0 = Release|Any CPU
+		{AEB3EBED-E97D-4D77-BA31-A1B7FAFE6AC6}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{AEB3EBED-E97D-4D77-BA31-A1B7FAFE6AC6}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{AEB3EBED-E97D-4D77-BA31-A1B7FAFE6AC6}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{AEB3EBED-E97D-4D77-BA31-A1B7FAFE6AC6}.Release|Any CPU.Build.0 = Release|Any CPU
+		{E7E9B68A-4ECC-4751-9828-30346FD4ADAF}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{E7E9B68A-4ECC-4751-9828-30346FD4ADAF}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{E7E9B68A-4ECC-4751-9828-30346FD4ADAF}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{E7E9B68A-4ECC-4751-9828-30346FD4ADAF}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal

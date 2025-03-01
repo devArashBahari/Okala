@@ -1,0 +1,22 @@
+<Project Sdk="Microsoft.NET.Sdk.Web">
+
+  <ItemGroup>
+    <ProjectReference Include="..\Okala.Application\Okala.Application.csproj" />
+    <ProjectReference Include="..\Okala.Contracts\Okala.Contracts.csproj" />
+    <ProjectReference Include="..\Okala.Infrastructure\Okala.Infrastructure.csproj" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <PackageReference Include="Swashbuckle.AspnetCore" Version="6.4.0" />
+    <PackageReference Include="Swashbuckle.AspnetCore.Swagger" Version="6.4.0" />
+    <PackageReference Include="Swashbuckle.AspnetCore.SwaggerGen" Version="6.4.0" />
+    <PackageReference Include="Swashbuckle.AspnetCore.SwaggerUI" Version="6.4.0" />
+  </ItemGroup>
+
+  <PropertyGroup>
+    <TargetFramework>net7.0</TargetFramework>
+    <ImplicitUsings>enable</ImplicitUsings>
+    <GenerateDocumentationFile>true</GenerateDocumentationFile>
+    <NoWarn>ASP0014;1591;0014</NoWarn>
+  </PropertyGroup>
+</Project>

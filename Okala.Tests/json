@@ -1,0 +1,12 @@
+{
+    "success": true,
+    "timestamp": 1671225123,
+    "source": "BTC",
+    "quotes": {
+        "BTCUSD": 16857.7887,
+        "BTCEUR": 15914.93963,
+        "BTCBRL": 89469.412423,
+        "BTCGBP": 13871.178565,
+        "BTCAUD": 25209.03926
+    }
+}
